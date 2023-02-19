@@ -28,7 +28,6 @@
             Web<span class="colortext-logo">Studio</span></a
           >
         </nav>
-        svg
         <nav class="nav-header">
           <ul class="header-list list">
             <li class="header-item">
@@ -636,8 +635,82 @@
             ></use>
           </svg>
         </button>
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
+        <form class="modal-form" name="modal-form">
+          <!-- Name-fild -->
+          <label class="modal-form-label">
+            Name
+            <div class="modal-form-group">
+              <input class="name-modal" type="text" name=" Name" required />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use
+                  href="./images-hw-6/modal-icon/modal-icon-form.svg#icon-person-2"
+                ></use>
+              </svg>
+            </div>
+          </label>
+          <!-- Phone-field -->
+          <label class="modal-form-label">
+            Phone
+            <div class="modal-form-group">
+              <input class="name-modal" type="tel" name="Phone" required />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use
+                  href="./images-hw-6/modal-icon/modal-icon-form.svg#icon-phone-2"
+                ></use>
+              </svg>
+            </div>
+          </label>
+          <!-- Email-field -->
+          <label class="modal-form-label">
+            Email
+            <div class="modal-form-group">
+              <input class="name-modal" type="email" name="Email" required />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use
+                  href="./images-hw-6/modal-icon/modal-icon-form.svg#icon-email-1"
+                ></use>
+              </svg>
+            </div>
+          </label>
+          <!-- Comment-field -->
+          <label class="modal-form-label">
+            Comment
+             <div class=" coment- form">
+               <textarea
+                class="modal-form-comment"
+                name="user_comment"
+                id="user_comment"
+                rows="6"
+                placeholder="Text input"
+              ></textarea>
+             </div>
+          </label>
+          <!-- Agreement field -->
+          <label class="modal-form-label" for="user_agreement">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+              name="user_agreement"
+              id="user_agreement"
+              required
+              data-modal-checkbox
+            />
+            <svg class="custom-checkbox" width="16" height="16">
+              <use href="./images-hw-6/user-agreement/checkbox.svg#icon-checkbox"></use>
+              <use href="./images-hw-6/user-agreement/checkbox.svg#icon-click"></use>
+            </svg>
+             <span class="modal-form-desc"></span>
+              I accept the terms and conditions of the
+              <a class="modal-form-link" href="" target="_blank">Privacy Policy</a>
+            </span>
+            <button class="modal-form-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
+
     <!-- script-js -->
     <script src="./js/modal.js"></script>
   </body>
