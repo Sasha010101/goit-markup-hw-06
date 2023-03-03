@@ -966,12 +966,18 @@ margin-bottom: 16px;
 margin-bottom: 16px;
 text-align: center;
 letter-spacing: 0.02em;
+font-size: 16px; 
+line-height: calc(24px / 16px);
 }
 
 .modal-form {
+display: block;
 padding-left: 24px;
 padding-right: 24px;
+
+
 }
+
 
 .modal-form-label {
 display: block;
@@ -979,7 +985,11 @@ font-size: 12px;
 line-height: calc(16px / 12px);
 fill:#2E2F42;
 margin-bottom: 4px;
+color:#8E8F99;
+font-size: 12px;
+line-height: calc(14px / 12px);
 }
+
 
 
 
@@ -987,13 +997,14 @@ margin-bottom: 4px;
 display: flex;
 position: relative;
 margin-bottom: 8px;
-border-color: var(--accent-txt-cl);
+
 }
 
-/* .modal-form-group:hover,
-.modal-form-group:focus{
-    border-color: var(--icon-ocean-cl);
-} */
+.modal-form-group:hover,
+.modal-form-group:focus {
+ fill: #4D5AE5;
+ border-color: #4D5AE5;
+}
 
 
 .name-modal {
@@ -1006,6 +1017,24 @@ border-radius: 4px;
 border:1px Solid rgba(33, 33, 33, 0.2);
 }
 
+.name-modal:hover,
+.name-modal{
+outline-color:#4D5AE5;
+fill: #4D5AE5;
+
+
+
+
+
+}
+.modal-form-icon 
+{display: block;
+}
+
+
+
+
+
 
 
 .modal-form-icon {
@@ -1013,6 +1042,10 @@ display: block;
 position: absolute;
 top: 11px ;
 left: 16px ;
+}
+.modal-form-icon:hover,
+.modal-form-icon:focus{
+fill: #4d5ae5;
 }
 
 
@@ -1032,7 +1065,10 @@ border-color: rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 
 }
-
+.modal-form-comment:hover,
+.modal-form-comment:focus-visible {
+outline-color: #4D5AE5;
+}
 .modal-form-agreement {
     
 }
