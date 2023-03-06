@@ -1009,10 +1009,10 @@ border-radius: 4px;
 border:1px Solid rgba(33, 33, 33, 0.2);
 }
 
-.name-modal:hover,
+
 .name-modal:focus {
-fill: #4D5AE5;
-outline-color: #4D5AE5;
+outline:none;
+border: 1px solid #4D5AE5;
 }
 
 
@@ -1026,11 +1026,11 @@ display: block;
 position: absolute;
 top: 11px ;
 left: 16px ;
+
 }
-.modal-form-icon:hover,
-.modal-form-icon:focus {
+
+.name-modal:focus-within + .modal-form-icon {
 fill: #4D5AE5;
-color: #4D5AE5;
 }
 
 
@@ -1039,6 +1039,7 @@ color: #4D5AE5;
 
 }
 .coment-form{
+  
     
 }
 
@@ -1050,11 +1051,16 @@ padding: 8px 16px;
 border-color: rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 
+
+
 }
 .modal-form-comment:hover,
 .modal-form-comment:focus-visible {
-outline-color: #4D5AE5;
+outline:none;
+border: 1px solid #4D5AE5;
 }
+
+
 .modal-form-agreement {
 display: flex;
 align-items: center;
@@ -1094,10 +1100,9 @@ stroke: #4D5AE5;
 fill:#F4F4FD;
 opacity: 0;
 transform: rotate(0) scale(0.3);
-
 transform-origin: center;
 }
-.modal-form-checkbox:checked+.custom-checkbox>.custom-checkbox-check{
+.modal-form-checkbox:checked+.custom-checkbox>.custom-checkbox-check {
 opacity: 1;
 transform:scale(0.7);
 }
@@ -1129,5 +1134,6 @@ border: none;
 border-radius: 4px;
 margin: auto;
 cursor: pointer;
+margin-bot: 24px;
 }
     
