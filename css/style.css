@@ -1068,9 +1068,10 @@ justify-content: center;
 
 
 }
+.modal-form-agreement{}
 
 .modal-form-checkbox {
-    display: block;
+display: block;
 appearance: none;
 padding-top: 16px;
 padding-bottom: 16px;
@@ -1086,7 +1087,7 @@ padding-bottom: 16px;
 .custom-checkbox-frame {
 stroke: #2e2f42;
 fill: transparent;
-fill: #FFFFFF;
+
 transform-origin: center;
 
 }
@@ -1110,10 +1111,7 @@ transform:scale(0.7);
 
 .modal-form-desc {
 
-align-items: center;
-justify-content: center;
-margin-top: 16px;
-margin-bottom: 24px;
+
 user-select: none;
 }
 
@@ -1122,7 +1120,7 @@ color: var(--icon-ocean-cl);
     
 }
 .modal-form-button{
-display: flex;
+display: block;
 align-items: center;
 justify-content: center;
 padding: 16px 32px;
@@ -1134,6 +1132,6 @@ border: none;
 border-radius: 4px;
 margin: auto;
 cursor: pointer;
-margin-bot: 24px;
+margin-bottom: 24px;
 }
     
