@@ -293,7 +293,8 @@ left: 50%;
 transform: translate(-50%, -50%);
 
 width: 408px;
-height: 576px;
+min-height: 584px;
+padding: 72px 24px 24px 24px;
 background-color: var(--icon-modal-cl);
 box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 1px;
 border-radius: 4px;
@@ -987,9 +988,9 @@ padding-bottom: 24px; */
 display: block;
 font-size: 12px;
 line-height: calc(16px / 12px);
-fill:#2E2F42;
+
 margin-bottom: 4px;
-color:#8E8F99;
+
 
 }
 
@@ -1114,8 +1115,6 @@ transform:scale(0.7);
 
 
 .modal-form-desc {
-
-
 user-select: none;
 }
 
@@ -1125,8 +1124,8 @@ color: var(--icon-ocean-cl);
 }
 .modal-form-button{
 display: block;
-align-items: center;
-justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 padding: 16px 32px;
 width: 169px;
 height: 56px;
