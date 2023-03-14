@@ -1067,20 +1067,13 @@ color: rgba(117, 117, 117, 0.5);
 
 .modal-form-agreement {
 font-size: 12px;
-align-items: center;
-justify-content: center;
-gap: 8px;
-
+a
 
 
 
 }
-.modal-form-agreementt{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px; */
-}
+
+
 
 .modal-form-checkbox {
 appearance: none;
@@ -1095,11 +1088,13 @@ height: 16px;
 .visually-hidden {}
 
 .custom-checkbox {
+
+
 }
 
 
 .custom-checkbox-frame {
- 
+ display: block;
 stroke: #2e2f42;
 fill: transparent;
 
@@ -1112,6 +1107,7 @@ stroke: #4D5AE5;
 
 }
 .custom-checkbox-check{
+    display: flex;
 fill:#F4F4FD;
 opacity: 0;
 transform: rotate(0) scale(0.3);
@@ -1124,6 +1120,7 @@ transform:scale(0.7);
 
 
 .modal-form-desc {
+display: flex;
 
 }
 
