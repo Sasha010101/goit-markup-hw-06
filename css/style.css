@@ -974,11 +974,6 @@ font-size: 16px; }
 
 .modal-form {
 
-/* padding-top: 72px;
-padding-left: 24px;
-padding-right: 24px;
-padding-bottom: 24px; */
-
 }
 
 
@@ -987,7 +982,7 @@ padding-bottom: 24px; */
 .modal-form-label {
 display: block;
 font-size: 12px;
-margin-bottom: 4px;
+
 
 
 }
@@ -1066,9 +1061,10 @@ color: rgba(117, 117, 117, 0.5);
 
 
 .modal-form-agreement {
+display: flex;
 font-size: 12px;
-a
-
+align-items: center;
+justify-content: center;
 
 
 }
@@ -1076,13 +1072,10 @@ a
 
 
 .modal-form-checkbox {
-appearance: none;
 display: block;
+appearance: none;
 width: 16px;
 height: 16px;
-
-
-
 }
 
 .visually-hidden {}
@@ -1120,7 +1113,7 @@ transform:scale(0.7);
 
 
 .modal-form-desc {
-display: flex;
+font-size: 12px;
 
 }
 
