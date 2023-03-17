@@ -291,10 +291,10 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-
 width: 408px;
 min-height: 584px;
 padding: 72px 24px 24px 24px;
+
 background-color: var(--icon-modal-cl);
 box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 1px;
 border-radius: 4px;
@@ -519,10 +519,10 @@ margin-top: 72px;
 }
 
 .team-name {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 8px 0;
-    padding: 0;
+display: flex;
+justify-content: center;
+margin: 0 0 8px 0;
+padding: 0;
 font-weight: 500;
 Font-size: 20px;
 line-height: calc(24 /20);
@@ -966,9 +966,9 @@ margin: 0;
 
 .modal-title {
 display: block;
-
+margin: 0 auto;
 text-align: center;
-
+margin-bottom: 16px;
 font-size: 16px; }
 
 
@@ -1019,10 +1019,10 @@ border: 1px solid #4D5AE5;
 
 
 .modal-form-icon {
-display: block;
 position: absolute;
 top: 11px ;
 left: 16px ;
+pointer-events: none;
 
 }
 
@@ -1041,6 +1041,7 @@ fill: #4D5AE5;
 }
 
 .modal-form-comment {
+display: block;
 width: 100%;
 height: 120px;
 padding: 8px 16px;
@@ -1063,8 +1064,11 @@ color: rgba(117, 117, 117, 0.5);
 .modal-form-agreement {
 display: flex;
 font-size: 12px;
-align-items: center;
+gap: 8px;
+letter-spacing: 0.04em;
 justify-content: center;
+align-items: center;
+margin-bottom: 20px;
 
 
 }
@@ -1076,9 +1080,13 @@ display: block;
 appearance: none;
 width: 16px;
 height: 16px;
-}
+border-radius: 2px;
 
-.visually-hidden {}
+
+}
+.visually-hidden {
+
+}
 
 .custom-checkbox {
 
@@ -1087,7 +1095,7 @@ height: 16px;
 
 
 .custom-checkbox-frame {
- display: block;
+ 
 stroke: #2e2f42;
 fill: transparent;
 
@@ -1100,7 +1108,7 @@ stroke: #4D5AE5;
 
 }
 .custom-checkbox-check{
-    display: flex;
+display: flex;
 fill:#F4F4FD;
 opacity: 0;
 transform: rotate(0) scale(0.3);
@@ -1114,7 +1122,7 @@ transform:scale(0.7);
 
 .modal-form-desc {
 font-size: 12px;
-
+user-select: none;
 }
 
 .modal-form-link {
@@ -1130,9 +1138,13 @@ border: none;
 cursor: pointer;
 border-radius: 4px;
 font-size: 16px;
-margin: auto;
-padding: 16px 32px;
 width: 169px;
 height: 56px;
+margin: auto;
+}
+
+.btn{
+
+    
 }
     
