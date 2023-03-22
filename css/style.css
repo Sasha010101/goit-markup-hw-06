@@ -1066,8 +1066,8 @@ display: flex;
 font-size: 12px;
 gap: 8px;
 letter-spacing: 0.04em;
-justify-content: center;
-align-items: center;
+
+
 margin-bottom: 20px;
 
 
@@ -1076,19 +1076,24 @@ margin-bottom: 20px;
 
 
 .modal-form-checkbox {
-display: block;
+display: flex;
 appearance: none;
 width: 16px;
 height: 16px;
 border-radius: 2px;
 
 
+
 }
 .visually-hidden {
+
 
 }
 
 .custom-checkbox {
+display: flex ;
+align-items: flex-start;
+justify-content: flex-start;
 
 
 }
