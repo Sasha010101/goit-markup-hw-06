@@ -1036,7 +1036,7 @@ line-height: calc(24 / 16);
 letter-spacing: 0.04em;
 width: 165px;
 height: 40px;
-background: var(--icon-ocean-cl);
+background: #4D5AE5;
 color: #FFFFFF;
 font-weight: 500;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
