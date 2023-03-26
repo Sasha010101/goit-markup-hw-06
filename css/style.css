@@ -515,7 +515,7 @@ margin-top: 72px;
 
 }
 .team-img{
-    display: block;
+display: block;
 }
 
 .team-name {
@@ -531,15 +531,14 @@ color:var(--primary-txt-cl);
 
 }
 .team-container{
-    
-    width: 264px;
-    height: 428px;
-   border:  #FFFFFF ;
-   border-top: none;
-   background-color: #FFFFFF;
-   border-radius: 0px 0px 4px 4px;
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+width: 264px;
+height: 428px;
+border:  #FFFFFF ;
+border-top: none;
+background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     
    
 }
@@ -592,7 +591,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus{
-    background-color: #404BBF;
+background-color: #404BBF;
 }
 
 .customers-section{
@@ -963,13 +962,33 @@ margin: 0;
 .footer-text { }
 
 /* Footer-form */
-.footer-wrapper-form {}
+.footer-wrapper-form {
+    margin-left: 80px;
+
+
+
+
+}
+
+.footer-subscription-container {
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+margin: 0 auto;
+}
 
 .subscription-title {
+font-family: inherit;
 font-weight: 500;
+font-size: 16px;
+line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: #FFFFFF;
+margin: 0 auto;
 margin-bottom: 16px;
+
+
 }
 
 .footer-subscription-form {
@@ -978,17 +997,14 @@ align-items: center;
 justify-content: center;
 }
 
-.footer-subscription-container {
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
-}
+
 
 .subscription {
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 0 auto;
+
 }
 
 .footer-subscription-email {
@@ -1001,11 +1017,34 @@ border-radius: 4px;
 padding: 8px 16px;
 color: #FFFFFF;
 margin-right: 24px;
+outline: none;
 }
 
-.footer-btn-icon {}
+.footer-btn-icon {
+position: absolute;
+top: 50%;
+right: 24px;
+transform: translateY(-50%);
+fill: #FFFFFF;
+}
 
-.footer-subscribe-btn {}
+.footer-subscribe-btn {
+display: flex;
+align-items: center;
+font-size: 16px;
+line-height: calc(24 / 16);
+letter-spacing: 0.04em;
+width: 165px;
+height: 40px;
+background: var(--icon-ocean-cl);
+color: #FFFFFF;
+font-weight: 500;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: none;
+border-radius: 4px;
+padding: 8px 24px;
+cursor: pointer;
+}
 
 /* Modal-Form */
 
